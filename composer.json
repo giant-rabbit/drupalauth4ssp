@@ -20,7 +20,13 @@
   },
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Realityloop/simplesamlphp-module-drupalauth.git"
+    }
+  ],
   "require": {
-    "drupalauth/simplesamlphp-module-drupalauth": "^1.9.1"
+    "drupalauth/simplesamlphp-module-drupalauth": "dev-master#75af2c4a5242fd156885d243c0f4dbe906e56495"
   }
 }
